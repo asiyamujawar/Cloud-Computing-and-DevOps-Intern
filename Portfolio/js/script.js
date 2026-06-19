@@ -1,1 +1,0 @@
-const t='Full Stack Developer | Cloud & DevOps Enthusiast';let i=0;function type(){if(i<t.length){typeEl.textContent+=t[i++];setTimeout(type,60)}}const typeEl=document.getElementById('type');type();const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('active')}));document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
